@@ -1,0 +1,721 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: auto;
+    box-shadow: 0 0 2px white;
+    opacity: 0.8;
+   
+    .logo-nav{
+        display: flex;
+        padding-inline-start: 80px;
+        color:  rgb(150,75,0);
+      
+        
+   
+        .home{
+          padding-top: 12px;
+            padding-inline-start: 150px;
+            display: flex;
+            font-size: 13px;
+
+            a{
+                text-decoration: none;
+                color:whitesmoke;
+                :hover{
+                    color: rgb(150,75,0);
+                }
+            }
+
+            .about{
+                padding-inline-start: 60px;
+                display: flex;
+
+               
+                    .contact{
+                        display: flex;
+                        padding-inline-start: 60px;
+
+                        .visi{
+                            display: flex;
+                            padding-inline-start: 60px;
+
+                                    .menu{
+                                        display: flex;
+                                        padding-inline-start: 60px;
+
+                                        .icon-shopping-cart{
+                                            display: flex;
+                                            padding-inline-start: 270px;
+                                            padding-top: 10px;
+                                        }
+                                    }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+a{
+    color: white;
+
+    
+}
+
+span{
+    color: white;
+}
+
+.filsof{
+    color: rgb(150,75,0);
+
+    }
+
+        .img-filsof{
+            padding-top: 15px;
+            img{
+            border-radius: 50px;
+            border-style: groove;
+            border: none;
+            box-shadow: 0 0 20px rgb(150,75,0);
+            }
+        }
+
+        .teks-filsof{
+            color: white;
+        }
+
+        .judul-about{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+
+            hr{
+                width: 5%;
+            }
+        }
+
+        .teks-about{
+          color: white;
+        }
+
+        .judul-rekomendasi{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+
+           
+        }
+
+        .img-menu-1{
+            display: flex;
+            padding-inline-start: 120px;
+            padding-top: 15px;
+
+            img{
+                box-shadow: 0 0 3px white;
+            }
+
+            .img-menu-2{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .img-menu-3{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .img-menu-4{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+
+        .btn-menu{
+            padding-top: 15px;
+
+            button{
+                margin-top: 15px;
+                width: 20%;
+               cursor: pointer;
+               border: none;
+            }
+        }
+
+        .hr-list{
+            padding-top: 20px;
+        }
+
+        .judul-galeri{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+        }
+
+        .list-garis{
+            background-color: black;
+            border-style: groove;
+            border-color: black;
+           
+        }
+        .futter-toko{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+            
+        }
+        .where-find{
+            color: white;
+        }
+        .instagram{
+            display: flex;
+        padding-inline-start: 503px;
+        padding-top: 20px;
+        background-size: auto;
+        
+        img{
+            :hover{
+                color: #da6511;
+            }
+        }
+            .whatsapp{
+                display: flex;
+                padding-inline-start: 30px;
+            }
+            .gmail{
+                padding-inline-start: 30px;
+                display: flex;
+            }
+        
+            .user-join{
+                padding-inline-start: 30px;
+                display: flex;
+            }
+        }
+        .copyright{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+        }
+        .titik-tepi{
+            color:black;
+        }
+
+        /* css responsive */
+
+        /* css responsive hp */
+
+        @media screen and (max-width: 767px) {
+            html{
+                .background{
+                    display:none;
+
+                    .logo-nav{
+                        display: flex;
+                    }
+                }
+            }
+
+           .img-menu-1{
+            justify-content: center;
+           }
+        }
+
+        .btn-order-whatsapp{
+            margin-top: 150px;
+
+            button{
+                width: 40%;
+                background-color: white;
+                border: none;
+                box-shadow: 0 0 30px rgb(150,75,0);
+                :hover{
+                    color: rgb(150,75,0);
+                    cursor: pointer;
+                }
+            }
+
+            .btn-shopee-order{
+                margin-top: 50px;
+
+                .btn-order-gojek{
+                    margin-top: 50px;
+
+                    .btn-order-grab{
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+
+        .judul-outlet{
+            color: rgb(150,75,0);
+            padding-top: 20px;
+        }
+
+        .search-fitur{
+            margin-top: 20px;
+            padding-inline-start: 350px;
+            display: flex;
+            input{
+                width: 60%;
+                height: 30px;
+            }
+        }
+
+        .icon-search{
+            padding-top: 5px;
+            padding-inline-start: 15px;
+            background-color: rgb(150,75,0);
+            color: rgb(150,75,0);
+        }
+
+        .img-outlet-1{
+            display: flex;
+            padding-inline-start: 120px;
+            padding-top: 20px;
+
+            img{
+                box-shadow: 0 0 3px white; 
+            }
+
+            .img-outlet-2{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .img-outlet-3{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .img-outlet-4{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+
+        .list-outlet-name-1{
+            display: flex;
+            padding-inline-start: 220px;
+
+            a{
+                text-decoration: none;
+                :hover{
+                    color: rgb(150,75,0);
+                }
+            }
+
+            .list-outlet-name-2{
+                display: flex;
+                padding-inline-start: 235px;
+
+                .list-outlet-name-3{
+                    display: flex;
+                    padding-inline-start: 240px;
+
+                    .list-outlet-name-4{
+                        display: flex;
+                        padding-inline-start: 60px;
+                    }
+                }
+            }
+        }
+
+        .img-outlet-5{
+            display: flex;
+            padding-inline-start: 120px;
+            padding-top: 20px;
+
+            img{
+                box-shadow: 0 0 3px white; 
+            }
+
+            .img-outlet-6{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .img-outlet-7{
+                    display: flex;
+                    padding-inline-start: 30px;
+
+                    .img-outlet-8{
+                        display: flex;
+                        padding-inline-start: 30px;
+                    }
+                }
+            }
+        }
+
+        .list-outlet-name-5{
+            display: flex;
+            padding-inline-start: 220px;
+
+            a{
+                text-decoration: none;
+                :hover{
+                    color: rgb(150,75,0);
+                }
+            }
+
+            .list-outlet-name-6{
+                display: flex;
+                padding-inline-start: 190px;
+
+                .list-outlet-name-7{
+                    display: flex;
+                    padding-inline-start: 215px;
+
+                    .list-outlet-name-8{
+                        display: flex;
+                        padding-inline-start: 220px;
+                    }
+                }
+            }
+        }
+
+        .judul-menu-kami{
+            color: rgb(150,75,0);
+            padding-top: 100px;
+        }
+
+        .home{
+            padding-top: 12px;
+              padding-inline-start: 150px;
+              display: flex;
+              font-size: 13px;
+  
+              a{
+                  text-decoration: none;
+                  color:whitesmoke;
+                  :hover{
+                      color: rgb(150,75,0);
+                  }
+              }
+  
+              .hot-coffee{
+                  padding-inline-start: 60px;
+                  display: flex;
+  
+                 
+                      .Espresso{
+                          display: flex;
+                          padding-inline-start: 60px;
+  
+                          .cold-coffee{
+                              display: flex;
+                              padding-inline-start: 60px;
+  
+                                      .bakery{
+                                          display: flex;
+                                          padding-inline-start: 60px;
+  
+                                          .icon-shopping-cart{
+                                              display: flex;
+                                              padding-inline-start: 340px;
+                                              padding-top: 10px;
+                                          }
+                                      }
+                              }
+                          }
+                      }
+                  }
+              
+  
+  
+  a{
+      color: white;
+  
+      
+  }
+  
+  span{
+      color: white;
+  }
+
+  .judul-hot-coffee{
+    padding-top: 100px;
+    color: rgb(150,75,0);
+  }
+
+  .list-menu-1{
+    display: flex;
+    padding-inline-start: 165px;
+    color: white;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .list-menu-2{
+        display: flex;
+        padding-inline-start: 155px;
+
+    }
+
+    .list-menu-3{
+        display: flex;
+        padding-inline-start: 120px;
+
+        .list-menu-4{
+            padding-inline-start: 150px;
+            display: flex;
+        }
+    }
+  }
+
+  .list-menu-5{
+    display: flex;
+    padding-inline-start: 190px;
+    color: white;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .list-menu-6{
+        display: flex;
+        padding-inline-start: 190px;
+
+    }
+
+    .list-menu-7{
+        display: flex;
+        padding-inline-start: 150px;
+
+        .list-menu-8{
+            padding-inline-start: 150px;
+            display: flex;
+        }
+    }
+  }
+
+  /* list nama menu hot coffee 1 dan 4 */
+  .list-menu-hot-1{
+    display: flex;
+    padding-inline-start: 145px;
+    color: white;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .list-menu-hot-2{
+        display: flex;
+        padding-inline-start: 140px;
+
+    }
+
+    .list-menu-hot-3{
+        display: flex;
+        padding-inline-start: 120px;
+
+        .list-menu-hot-4{
+            padding-inline-start: 100px;
+            display: flex;
+        }
+    }
+  }
+
+   /* list nama menu hot coffee 5 dan 8 */
+   .list-menu-hot-5{
+    display: flex;
+    padding-inline-start: 145px;
+    color: white;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .list-menu-hot-6{
+        display: flex;
+        padding-inline-start: 140px;
+
+    }
+
+    .list-menu-hot-7{
+        display: flex;
+        padding-inline-start: 150px;
+
+        .list-menu-hot-8{
+            padding-inline-start: 145px;
+            display: flex;
+        }
+    }
+  }
+
+  .judul-espresso{
+    color: rgb(150,75,0);
+    padding-top: 100px;
+  }
+
+  .list-menu-espresso-1{
+    display: flex;
+    padding-inline-start: 200px;
+
+    a{
+        text-decoration: none;
+
+        :hover{
+            color: rgb(150,75,0);
+        }
+    }
+
+    .list-menu-espresso-2{
+        display: flex;
+        padding-inline-start: 140px;
+
+        .list-menu-espresso-3{
+            display: flex;
+            padding-inline-start: 160px;
+
+            .list-menu-espresso-4{
+                display: flex;
+                padding-inline-start: 150px;
+            }
+        }
+    }
+  }
+
+  .judul-cold-coffee{
+    color: rgb(150,75,0);
+    padding-top: 100px;
+  }
+
+  /* img menu cold ccoffee 1 sampai 4 */
+
+  .img-cold-coffee-1{
+    display: flex;
+    padding-top: 20px;
+    padding-inline-start: 120px;
+
+    img{
+        box-shadow: 0 0 3px white; 
+    }
+
+    .img-cold-coffee-2{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .img-cold-coffee-3{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .img-cold-coffee-4{
+                display: flex;
+                padding-inline-start: 30px;
+            }
+        }
+    }
+  }
+
+  /* list produk nama cold coffee */
+
+  .nama-cold-coffee-1{
+    display: flex;
+    padding-inline-start: 150px;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .nama-cold-coffee-2{
+        display: flex;
+        padding-inline-start: 140px;
+
+        .nama-cold-coffee-3{
+            display: flex;
+            padding-inline-start: 140px;
+
+            .nama-cold-coffee-4{
+                display: flex;
+                padding-inline-start: 140px;
+            }
+        }
+    }
+  }
+
+  .img-cold-coffee-5{
+    display: flex;
+    padding-top: 20px;
+    padding-inline-start: 120px;
+
+    img{
+        box-shadow: 0 0 3px white; 
+    }
+
+    .img-cold-coffee-6{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .img-cold-coffee-7{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .img-cold-coffee-8{
+                display: flex;
+                padding-inline-start: 30px;
+            }
+        }
+    }
+  }
+
+  /* list nama coffee cold */
+  .nama-cold-coffee-5{
+    display: flex;
+    padding-inline-start: 149px;
+
+    :hover{
+        color: rgb(150,75,0);
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .nama-cold-coffee-6{
+        display: flex;
+        padding-inline-start: 115px;
+
+        .nama-cold-coffee-7{
+            display: flex;
+            padding-inline-start: 100px;
+
+            .nama-cold-coffee-8{
+                display: flex;
+                padding-inline-start: 130px;
+            }
+        }
+    }
+  }
+
+  
